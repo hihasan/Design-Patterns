@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
 
         value=(AppCompatButton) findViewById (R.id.value);
 
-        add=new AddSingleTonValue();
+        add=AddSingleTonValue.getInstance();
 
         FloatingActionButton fab=(FloatingActionButton) findViewById (R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

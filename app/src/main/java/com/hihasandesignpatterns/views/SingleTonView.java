@@ -18,7 +18,7 @@ public class SingleTonView extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singleton);
 
-        add=new AddSingleTonValue();
+        add=AddSingleTonValue.getInstance();
 
         txt=(AppCompatTextView) findViewById (R.id.number);
 
