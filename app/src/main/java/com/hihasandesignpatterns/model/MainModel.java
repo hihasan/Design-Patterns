@@ -1,14 +1,17 @@
 package com.hihasandesignpatterns.model;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class MainModel
 {
+    @SerializedName("login")
+    @Expose
     public String name;
-    public int img;
 
-    public MainModel(String name, int img){
-        this.name=name;
-        this.img=img;
-    }
+    @SerializedName("avatar_url")
+    @Expose
+    public int img;
 
     public String getName() {
         return name;
