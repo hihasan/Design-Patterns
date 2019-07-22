@@ -10,7 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".views.MainActivity"
+                android:name=".views.RestView"
                 android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -23,6 +23,8 @@
                 android:name=".views.SingleTonView"
                 android:label="@string/app_name"
                 android:parentActivityName=".views.MainActivity"/>
+        <activity android:name=".views.MainActivity"
+                  android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
