@@ -5,27 +5,35 @@ import com.google.gson.annotations.SerializedName;
 
 public class MainModel
 {
-    @SerializedName("login")
-    @Expose
+    @SerializedName("name")
     public String name;
+    @SerializedName("realname")
+    public String realname;
+    @SerializedName("createdby")
+    public String createdby;
+    @SerializedName("imageurl")
+    public String img;
 
-    @SerializedName("avatar_url")
-    @Expose
-    public int img;
+    public MainModel(String name, String realname, String createdby, String img) {
+        this.name = name;
+        this.realname = realname;
+        this.createdby = createdby;
+        this.img = img;
+    }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getRealname() {
+        return realname;
     }
 
-    public int getImg() {
+    public String getCreatedby() {
+        return createdby;
+    }
+
+    public String getImg() {
         return img;
-    }
-
-    public void setImg(int img) {
-        this.img = img;
     }
 }
