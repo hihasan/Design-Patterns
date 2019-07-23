@@ -6,6 +6,5 @@ package com.hihasandesignpatterns.api;
 
 public class BaseApi
 {
-    public static String BaseUrl="https://api.github.com/users/";
-
+    public static String BaseUrl="https://api.github.com/users";
 }
