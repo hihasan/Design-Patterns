@@ -44,6 +44,7 @@ public class RestView extends AppCompatActivity
                     Log.d(LOG,m.realname);
                     Log.d(LOG,m.createdby);
                     Log.d(LOG,m.img);
+                    //Log.d(LOG,"\n");
                 }
             }
 

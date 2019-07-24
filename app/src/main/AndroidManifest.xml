@@ -13,7 +13,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".views.RestView"
+                android:name=".views.ServiceActivity"
                 android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -28,6 +28,10 @@
                 android:parentActivityName=".views.MainActivity"/>
         <activity android:name=".views.MainActivity"
                   android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".views.RestView"/>
+
+        <!--Service & Broadcast-->
+        <service android:name=".service.ServicePractice"/>
     </application>
 
 </manifest>

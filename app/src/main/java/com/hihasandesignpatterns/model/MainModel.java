@@ -6,12 +6,19 @@ import com.google.gson.annotations.SerializedName;
 public class MainModel
 {
     @SerializedName("name")
+    @Expose
     public String name;
+
     @SerializedName("realname")
+    @Expose
     public String realname;
+
     @SerializedName("createdby")
+    @Expose
     public String createdby;
+
     @SerializedName("imageurl")
+    @Expose
     public String img;
 
     public MainModel(String name, String realname, String createdby, String img) {
