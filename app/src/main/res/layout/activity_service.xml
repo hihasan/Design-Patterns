@@ -9,6 +9,8 @@
 			android:layout_height="wrap_content"
 			android:layout_centerHorizontal="true"
 			android:layout_centerVertical="true"
+			android:paddingRight="6sp"
+			android:paddingLeft="6sp"
 			android:background="@android:color/holo_green_dark"
 			android:text="Start Service"
 			android:textColor="@android:color/white"/>
