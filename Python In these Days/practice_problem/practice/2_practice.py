@@ -27,3 +27,13 @@ print(name +  message)
 fperson_name="Abert Einstain"
 message=" once said, “A person who never made a mistake never tried anything new.”"
 print(fperson_name +  message)
+
+#2.8
+print(3+5)
+print(5-3)
+print(5*3)
+print(5/3)
+
+#2.9
+number =8
+print("My favorite Number is: "+ str(number))
