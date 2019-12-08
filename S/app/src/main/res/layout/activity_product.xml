@@ -11,7 +11,106 @@
             android:layout_width="match_parent"
             android:layout_height="96sp"
             android:background="@android:color/black">
-
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:text="Search"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/slider_background"
+            android:layout_width="match_parent"
+            android:layout_height="196sp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_below="@id/search_background">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:text="Slider"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/catagory_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_below="@id/slider_background">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/catagory_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_margin="12sp"
+                android:textColor="@android:color/white"
+                android:text="Catagory"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/catagory_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:layout_below="@id/catagory_txt"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/show_more_catagory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:layout_below="@id/catagory_recycler"
+                android:text="Show More Catagories"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/top_collection_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/catagory_background"
+            android:background="@android:color/darker_gray">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/top_collection_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:text="Top Collection"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/top_collection_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_collection_txt"
+                android:layout_margin="12sp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/top_collection_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_collection_recycler"
+                android:background="@android:color/holo_red_dark"
+                android:textColor="@android:color/white"
+                android:text="Show More Top Collection"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/top_selling_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:layout_below="@id/top_collection_background">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/top_selling_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:text="Top Selling Products"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/top_selling_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_selling_txt"
+                android:layout_margin="12sp"/>
         </RelativeLayout>
 
     </RelativeLayout>
