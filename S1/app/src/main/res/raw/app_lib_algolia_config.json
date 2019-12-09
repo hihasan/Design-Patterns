@@ -1,0 +1,32 @@
+{
+  "algolia": {
+    "searchOnlyKey": "721a685f17cd32966500eef1ced1b341",
+    "applicationID": "BHQ47RSLHT",
+    "indexes": {
+      "DEV": {
+        "product": "dev-productIndex",
+        "collection": "dev-collectionIndex",
+        "product_price_sort_asc": "dev-productIndex-sortby-price-asc",
+        "product_price_sort_desc": "dev-productIndex-sortby-price-desc",
+        "product_date_sort_asc": "dev-productIndex-sortby-date-asc",
+        "category": "dev-categoryIndex"
+      },
+      "STAGING": {
+        "product": "staging-productIndex",
+        "collection": "staging-collectionIndex",
+        "product_price_sort_asc": "staging-productIndex-sortby-price-asc",
+        "product_price_sort_desc": "staging-productIndex-sortby-price-desc",
+        "product_date_sort_asc": "staging-productIndex-sortby-date-asc",
+        "category": "staging-categoryIndex"
+      },
+      "PRODUCTION": {
+        "product": "productIndex",
+        "collection": "collectionIndex",
+        "product_price_sort_asc": "productIndex-sortby-price-asc",
+        "product_price_sort_desc": "productIndex-sortby-price-desc",
+        "product_date_sort_asc": "productIndex-sortby-date-asc",
+        "category": "categoryIndex"
+      }
+    }
+  }
+}

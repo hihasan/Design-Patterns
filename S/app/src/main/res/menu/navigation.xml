@@ -3,26 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_product"
-        android:enabled="true"
         android:icon="@mipmap/ic_launcher_round"
-        android:title="Product"
-        app:showAsAction="ifRoom" />
+        android:title="Product" />
     <item
         android:id="@+id/action_offer"
-        android:enabled="true"
         android:icon="@mipmap/ic_launcher_round"
-        android:title="Offer"
-        app:showAsAction="ifRoom" />
+        android:title="Offer" />
     <item
         android:id="@+id/action_income"
-        android:enabled="true"
         android:icon="@mipmap/ic_launcher_round"
-        android:title="My Income"
-        app:showAsAction="ifRoom" />
+        android:title="My Income" />
     <item
         android:id="@+id/action_shop"
-        android:enabled="true"
         android:icon="@mipmap/ic_launcher_round"
-        android:title="My Shop"
-        app:showAsAction="ifRoom" />
+        android:title="My Shop" />
 </menu>

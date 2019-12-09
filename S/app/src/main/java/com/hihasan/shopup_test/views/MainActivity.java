@@ -38,14 +38,14 @@ public class MainActivity extends AppCompatActivity {
         loadFragment(new ProductFragment());
     }
 
-    public void onBackPressed() {
-        if (getFragmentManager().getBackStackEntryCount() == 1) {
-            finish();
-        } else {
-            super.onBackPressed();
-            finish();
-        }
-    }
+//    public void onBackPressed() {
+//        if (getFragmentManager().getBackStackEntryCount() == 1) {
+//            finish();
+//        } else {
+//            super.onBackPressed();
+//            finish();
+//        }
+//    }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
